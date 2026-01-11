@@ -89,6 +89,21 @@ rss:
       url: "https://finance.yahoo.com/news/rssindex"
       enabled: false                  # 禁用
 
+    - id: "wasi"
+      name: "瓦斯阅读"
+      url: "https://rss.aishort.top/?type=wasi"
+      max_age_days: 0
+
+    - id: "32kr"
+      name: "36kr"
+      url: "https://m.36kr.com/feed"
+      max_age_days: 0      
+
+    - id: "cd"
+      name: "中日报"
+      url: "https://plink.anyfeeder.com/chinadaily/dual"
+      max_age_days: 0
+   
     # 自定义源示例
     # - id: "custom-feed"
     #   name: "自定义源"
